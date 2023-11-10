@@ -1,0 +1,23 @@
+// Определяет является ли массив монотонным
+// Массив является монотонным в том случае, если все элементы в нем идут либо в убывающем,
+// либо в возрастающем порядке
+// Примеры:
+// [1,2,34,352] -> true
+// [5,5,5,5,5] -> true
+// [1,5,2] -> false
+function isMonotone(arr) {
+    return true;
+}//
+
+let arr = [1,2,34,352];
+function isMonotone(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        if (arr[i+1] = 0) {
+            return true;
+        }
+        else {
+              return false;
+}
+        }
+    }
+ console.log(isMonotone(arr));
